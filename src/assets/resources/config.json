@@ -13,7 +13,7 @@
       "quaternary": "hsl(0, 0%, 50%)"
     },
     "secondary": "hsl(0, 0%, 15%)",
-    "tertiary": "hsl(0, 0%, 30%)",
-    "quaternary": "hsl(0, 0%, 50%)"
+    "tertiary": "hsl(0, 0%, 20%)",
+    "quaternary": "hsl(0, 0%, 25%)"
   }
 }
