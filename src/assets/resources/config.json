@@ -15,5 +15,9 @@
     "secondary": "hsl(0, 0%, 15%)",
     "tertiary": "hsl(0, 0%, 20%)",
     "quaternary": "hsl(0, 0%, 25%)"
+  },
+  "analytics": {
+    "clarity": "nwouwe8dwg",
+    "gtag": "G-Q4C45S19KZ"
   }
 }
