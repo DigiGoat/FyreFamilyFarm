@@ -1,9 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-
-import { ImageEntry, ImageService } from '../../services/image/image.service';
-
-
 import type { Goat } from 'src/app/services/goat/goat.service';
+import { ImageEntry, ImageService } from '../../services/image/image.service';
 @Component({
   selector: 'app-goat-card',
   templateUrl: './goat-card.component.html',

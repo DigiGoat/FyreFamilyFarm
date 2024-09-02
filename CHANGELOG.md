@@ -1,3 +1,19 @@
+## 2.1.2-beta.2
+* Added an authentication token when rendering markdown to increase api rate limit
+
+## 2.1.2-beta.1
+* Added Support For Markdown!
+
+## 2.1.1-beta.3
+* Reverted images appearing for does/bucks pages as they broke the images when a specific goat is open
+
+## 2.1.1-beta.2
+* Fixed a potential bug causing the goat's description to not appear on Facebook
+* When sharing your does/bucks page, the images will be included
+
+## 2.1.1-beta.1
+* Fixed the border that would appear around a goat's images in the modal
+
 # 2.1.0
 * Added the current owner of a goat to the pedigree
 
