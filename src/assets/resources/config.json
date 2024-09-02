@@ -3,5 +3,17 @@
   "email": "fyrefamfarm@gmail.com",
   "homeTitle": "Fyre Family Farm",
   "menubarTitle": "Fyre Family Farm",
-  "tabTitle": "Fyre Family"
+  "tabTitle": "Fyre Family",
+  "colors": {
+    "main": "hsl(0, 0%, 10%)",
+    "light": {
+      "main": "hsl(0, 0%, 100%)",
+      "secondary": "hsl(0, 0%, 75%)",
+      "tertiary": "hsl(0, 0%, 70%)",
+      "quaternary": "hsl(0, 0%, 50%)"
+    },
+    "secondary": "hsl(0, 0%, 15%)",
+    "tertiary": "hsl(0, 0%, 30%)",
+    "quaternary": "hsl(0, 0%, 50%)"
+  }
 }
