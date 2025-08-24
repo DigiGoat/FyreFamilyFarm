@@ -2,11 +2,12 @@ import { Injectable } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { TitleStrategy as NgTitleStrategy, type RouterStateSnapshot } from '@angular/router';
 import { ConfigService } from '../services/config/config.service';
+import { FirebaseService } from '../services/firebase/firebase.service';
 import { PlatformService } from '../services/platform/platform.service';
 
 @Injectable({ providedIn: 'root' })
 export class TitleStrategy extends NgTitleStrategy {
-  constructor(private readonly title: Title, private configService: ConfigService, private meta: Meta, private platform: PlatformService) {
+  constructor(private readonly title: Title, private configService: ConfigService, private meta: Meta, private platform: PlatformService, private firebase: FirebaseService) {
     super();
   }
   private readonly tags = ['og:title', 'og:url', 'og:site_name', 'og:type', 'og:description', 'og:image', 'og:image:alt', 'description'];
@@ -17,21 +18,26 @@ export class TitleStrategy extends NgTitleStrategy {
 
     if (title !== undefined) {
       const titlePrefix = this.formatTitle(title, routerState);
-      this.title.setTitle(`${titlePrefix}${this.configService.tabTitle ? ` · ${this.configService.tabTitle}` : ''}`);
+      this.title.setTitle(`${titlePrefix}${this.configService.shortTitle ? ` · ${this.configService.shortTitle}` : ''}`);
       this.meta.addTags([
         { property: 'og:title', content: titlePrefix.split(' · ').shift()! },
         { property: 'og:url', content: this.configService.link ? (new URL(`.${routerState.url}`, this.configService.link)).toString() : routerState.url },
-        { property: 'og:site_name', content: this.configService.homeTitle },
+        { property: 'og:site_name', content: this.configService.title },
         { property: 'og:type', content: 'website' },
-        { name: 'apple-mobile-web-app-title', content: this.configService.homeTitle }
+        { name: 'apple-mobile-web-app-title', content: this.configService.title }
       ]);
     } else {
-      this.title.setTitle(this.configService.tabTitle);
+      this.title.setTitle(this.configService.shortTitle);
     }
-    if (this.platform.isBrowser && !this.platform.isDev && 'gtag' in window) {
-      window.gtag('event', 'page_view', {
+    if (this.platform.isBrowser && !this.platform.isDev) {
+      this.firebase.logEvent('page_event', {
         page_path: routerState.url
       });
+      if ('gtag' in window) {
+        window.gtag('event', 'page_view', {
+          page_path: routerState.url
+        });
+      }
     }
   }
   formatTitle(title: string, routerState: RouterStateSnapshot): string {
@@ -48,6 +54,6 @@ export class TitleStrategy extends NgTitleStrategy {
       return Object.assign(paramObj, children[0]?.params);
     }
     const paramMap = findParams(routerState.root.children);
-    return paramMap[param] ?? `:${param}`;
+    return (paramMap[param]?.replaceAll('-', ' ') ?? `:${param}`);
   }
 }

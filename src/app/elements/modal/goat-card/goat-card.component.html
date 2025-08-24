@@ -9,7 +9,11 @@
   <div class="card-text text-center container rounded-bottom ">
     <div class="text-capitalize">
       <div *ngIf="born">
-        <span class="fw-bold">Born</span>: <span class="fw-light" test-id="born">{{born | date:'longDate'}}</span>
+        <span class="fw-bold">Born</span>: <span class="fw-light" test-id="born">{{born | longDate}}</span>
+        <br>
+      </div>
+      <div *ngIf="deceased">
+        <span class="fw-bold">Deceased</span>: <span class="fw-light" test-id="deceased">{{deceased | longDate}}</span>
         <br>
       </div>
       <div *ngIf="id">
@@ -27,8 +31,13 @@
       <div *ngIf="colorAndMarking">
         <span class="fw-bold">Markings</span>: <span class="fw-light" test-id="markings">{{colorAndMarking.toLowerCase()}}</span>
       </div>
+      <div *ngIf="price">
+        <span class="fw-bold">Price</span>: <span class="fw-light" test-id="price">{{price}}</span>
+        <br>
+      </div>
     </div>
-    <span test-id="description" *ngIf="description" [innerHTML]="description"></span>
+    <div test-id="description" *ngIf="description" [innerHTML]="description"
+      [markdown]="(id || name || nickname) ? 'goat-' + (id || name || nickname) : ''"></div>
   </div>
-  <app-pedigree [goat]="goat"></app-pedigree>
+  <app-goat-info [goat]="goat"></app-goat-info>
 </div>

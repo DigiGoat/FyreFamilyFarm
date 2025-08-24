@@ -8,13 +8,22 @@
     <!-- Apple App Settings -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- Addresses Deprecation Logged In Edge Dev Console-->
+    <meta name="mobile-web-app-capable" content="yes">
     <!-- App Icons -->
+    <!--Old Icons:
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
     <link rel="manifest" href="./assets/icons/site.webmanifest">
     <link rel="shortcut icon" href="./assets/icons/favicon.ico">
     <meta name="msapplication-config" content="./assets/icons/browserconfig.xml">
+  -->
+    <link rel="icon" type="image/png" href="./assets/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/icons/site.webmanifest" />
     <script>
       function setTheme() {
         document.documentElement.setAttribute("data-bs-theme", window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -23,12 +32,13 @@
       window.matchMedia('(prefers-color-scheme: dark)').onchange = setTheme;
     </script>
     <link rel="preload" href="bootstrap.bundle.js" as="script" fetchpriority="high">
+    <script>!function (n, e) { var t, o, i, c = [], f = { passive: !0, capture: !0 }, r = new Date, a = "pointerup", u = "pointercancel"; function p(n, c) { t || (t = c, o = n, i = new Date, w(e), s()); } function s() { o >= 0 && o < i - r && (c.forEach(function (n) { n(o, t); }), c = []); } function l(t) { if (t.cancelable) { var o = (t.timeStamp > 1e12 ? new Date : performance.now()) - t.timeStamp; "pointerdown" == t.type ? function (t, o) { function i() { p(t, o), r(); } function c() { r(); } function r() { e(a, i, f), e(u, c, f); } n(a, i, f), n(u, c, f); }(o, t) : p(o, t); } } function w(n) { ["click", "mousedown", "keydown", "touchstart", "pointerdown"].forEach(function (e) { n(e, l, f); }); } w(n), self.perfMetrics = self.perfMetrics || {}, self.perfMetrics.onFirstInputDelay = function (n) { c.push(n), s(); }; }(addEventListener, removeEventListener);</script>
   </head>
   <body class="color-scheme-main">
     <noscript>
-      <h3 class="text-center">Javascript Is Disabled. Some Features May Not Work As Intended</h>
-        <h5 class="text-center">Click <a href="https://www.wikihow.com/Enable-JavaScript" target="_blank">Here</a> If You Don't Know How To
-          Enable It</h5>
+      <h3 class="text-center">Javascript Is Disabled. Some Features May Not Work As Intended</h3>
+      <h5 class="text-center">Click <a href="https://www.wikihow.com/Enable-JavaScript" target="_blank">Here</a> If You Don't Know How To
+        Enable It</h5>
     </noscript>
     <app-root></app-root>
     <script src="bootstrap.bundle.js" defer></script>

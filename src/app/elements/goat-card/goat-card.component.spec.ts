@@ -1,9 +1,14 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AgePipe } from '../../pipes/age.pipe';
+import { ActivatedRoute } from '@angular/router';
+import { AgePipe } from '../../pipes/age/age.pipe';
+import { FresheningPipe } from '../../pipes/freshening/freshening.pipe';
+import { GoatService } from '../../services/goat/goat.service';
 import { ImageService } from '../../services/image/image.service';
 import { GoatCardComponent } from './goat-card.component';
 
+jest.mock('@angular/router');
+jest.mock('../../services/goat/goat.service');
 
 describe('GoatCardComponent', () => {
   let component: GoatCardComponent;
@@ -11,8 +16,8 @@ describe('GoatCardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [GoatCardComponent, AgePipe],
-      providers: [ImageService],
+      declarations: [GoatCardComponent, AgePipe, FresheningPipe],
+      providers: [ImageService, ActivatedRoute, GoatService],
     })
       .compileComponents();
     fixture = TestBed.createComponent(GoatCardComponent);
@@ -23,6 +28,8 @@ describe('GoatCardComponent', () => {
         { file: 'TEST_IMAGE_FILE', alt: 'TEST_IMAGE_ALT' }
       ]
     };
+    component['route'] = { snapshot: { params: {} } } as any;
+    component['goatService']['getAppraisal'] = jest.fn().mockReturnValue({ finalScore: 80 }) as any;
   });
 
   it('should create', () => {
@@ -39,6 +46,7 @@ describe('GoatCardComponent', () => {
         dateOfBirth: new Date(Date.now() - (1000 * 3600 * 24)).toString(),
         normalizeId: 'PD12345',
       };
+      component.ngOnChanges();
       fixture.detectChanges();
       html = fixture.nativeElement;
     });
@@ -70,7 +78,7 @@ describe('GoatCardComponent', () => {
     it('should have an age', () => {
       const element = html.querySelector('[test-id="goat-age"]') as HTMLHeadingElement;
       expect(element).toBeTruthy();
-      expect(element.innerHTML).toBe('1 day old');
+      expect(element.innerHTML.trim()).toBe('1 day old');
     });
     it('should have a nickname', () => {
       const element = html.querySelector('[test-id="goat-nickname"]') as HTMLHeadingElement;
@@ -90,6 +98,7 @@ describe('GoatCardComponent', () => {
     let html: HTMLElement;
     beforeEach(() => {
       component['goat'] = {};
+      component.ngOnChanges();
       fixture.detectChanges();
       html = fixture.nativeElement;
     });

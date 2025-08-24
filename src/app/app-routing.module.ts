@@ -1,17 +1,19 @@
-import { NgModule, type OnInit, type Type } from '@angular/core';
-import { TitleStrategy as NgTitleStrategy, RouterModule, Route as ngRoute } from '@angular/router';
+import { NgModule, type OnInit } from '@angular/core';
+import { TitleStrategy as NgTitleStrategy, Route, RouterModule } from '@angular/router';
 
 import type { Observable } from 'rxjs';
+import { forSaleGuard } from './guards/for-sale/for-sale.guard';
+import { kiddingScheduleGuard } from './guards/kidding-schedule/kidding-schedule.guard';
+import { referencesGuard } from './guards/references/references.guard';
 import { BucksComponent } from './pages/bucks/bucks.component';
 import { DoesComponent } from './pages/does/does.component';
+import { ForSaleComponent } from './pages/for-sale/for-sale.component';
 import { HomeComponent } from './pages/home/home.component';
+import { KiddingScheduleComponent } from './pages/kidding-schedule/kidding-schedule.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ReferencesComponent } from './pages/references/references.component';
 import { TitleStrategy } from './strategies/title.strategy';
 
-interface Route extends ngRoute {
-  component?: Type<Page>;
-  children?: Route[];
-}
 const routes: Route[] = [
   { path: '', component: HomeComponent, title: 'Home' },
   {
@@ -23,6 +25,24 @@ const routes: Route[] = [
     path: 'bucks', children: [
       { path: '', component: BucksComponent, title: 'Bucks' },
       { path: ':goat', component: BucksComponent, title: ':goat - Bucks' }
+    ]
+  },
+  {
+    path: 'references', canMatch: [referencesGuard], children: [
+      { path: '', component: ReferencesComponent, title: 'References' },
+      { path: ':goat', component: ReferencesComponent, title: ':goat - References' }
+    ]
+  },
+  {
+    path: 'kidding-schedule', canMatch: [kiddingScheduleGuard], children: [
+      { path: '', component: KiddingScheduleComponent, title: 'Kidding Schedule' },
+      { path: ':goat', component: KiddingScheduleComponent, title: ':goat - Kidding Schedule' }
+    ]
+  },
+  {
+    path: 'for-sale', canMatch: [forSaleGuard], children: [
+      { path: '', component: ForSaleComponent, title: 'For Sale' },
+      { path: ':goat', component: ForSaleComponent, title: ':goat - For Sale' }
     ]
   },
   {

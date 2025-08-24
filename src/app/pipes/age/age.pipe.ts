@@ -1,11 +1,12 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'age'
+  name: 'age',
+  standalone: false
 })
 export class AgePipe implements PipeTransform {
 
-  transform(value: string): unknown {
+  transform(value: string): string {
     try {
       if (!Date.parse(value)) {
         throw new Error('Failed to parse date');
@@ -23,8 +24,8 @@ export class AgePipe implements PipeTransform {
       if (difference < 7) {
         const days = Math.trunc(difference);
         value = `${days} day${days > 1 ? 's' : ''} old`;
-        /** Check if the date is within the past 5 weeks */
-      } else if (difference < 7 * 5) {
+        /** Check if the date is within the past 15 weeks */
+      } else if (difference < 7 * 15) {
         const weeks = Math.trunc(difference / 7);
         value = `${weeks} week old`;
         /** Check if the date is within the past year */

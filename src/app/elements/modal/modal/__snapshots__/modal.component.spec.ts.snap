@@ -2,9 +2,12 @@
 
 exports[`ModalComponent With a Goat should match the snapshot 1`] = `
 <app-modal-goat
+  document={[Function Document]}
+  element={[Function ElementRef]}
+  forSale="false"
   goat={[Function Object]}
   modal={[Function Object]}
-  modalElement={[Function _ElementRef]}
+  modalElement={[Function ElementRef]}
   platformService={[Function PlatformService]}
   prerender="false"
   route={[Function ActivatedRoute]}
@@ -68,8 +71,11 @@ exports[`ModalComponent With a Goat should match the snapshot 1`] = `
 
 exports[`ModalComponent Without a Goat should match the snapshot 1`] = `
 <app-modal-goat
+  document={[Function Document]}
+  element={[Function ElementRef]}
+  forSale="false"
   modal={[Function Object]}
-  modalElement={[Function _ElementRef]}
+  modalElement={[Function ElementRef]}
   platformService={[Function PlatformService]}
   prerender="false"
   route={[Function ActivatedRoute]}

@@ -33,6 +33,16 @@ const github = axios.create({
 
 let success = true;
 const summary = ['## Pre Check Summary:', ''];
+
+async function checkBranch() {
+  if (process.env['GITHUB_BASE_REF'] === 'main' && process.env['GITHUB_HEAD_REF'] !== 'beta') {
+    log.error('Only the beta branch may merge into the main branch!');
+    summary.push(`- [ ] Branch Check: Only the beta branch may merge into the main branch! (\`${process.env['GITHUB_BASE_REF']} === 'main' && ${process.env['GITHUB_HEAD_REF']} !== 'beta')\``);
+    success = false;
+  } else {
+    summary.push(`- [x] Branch Check: Branches are compatible (\`${process.env['GITHUB_HEAD_REF']} --> ${process.env['GITHUB_BASE_REF']}\`)`);
+  }
+}
 async function checkVersion() {
   const version = JSON.parse(await git.show(`${origin}:package.json`)).version;
   log.debug('Old version', version);
@@ -41,12 +51,28 @@ async function checkVersion() {
     log.error('The version associated with this pull request is not greater than the previous version');
     summary.push(`- [ ] Version Check: \`v${version} <= v${packageJson.version}\``);
     success = false;
-  } else if (process.env['GITHUB_BASE_REF'] === 'main' && packageJson.version.includes('beta')) {
+  } else if ((process.env['GITHUB_BASE_REF'] === 'main' && packageJson.version.includes('beta')) || (process.env['GITHUB_BASE_REF'] === 'beta' && !packageJson.version.includes('beta'))) {
     log.error('The version associated with this pull request does not match the branch');
     summary.push(`- [ ] Version Check: Branch does not match version \`${process.env['GITHUB_BASE_REF']} !== v${packageJson.version}\``);
     success = false;
   } else {
     summary.push(`- [x] Version Check: \`v${version} --> v${packageJson.version}\``);
+  }
+}
+async function checkDependencyVersions() {
+  const adgaVersion = packageJson.devDependencies?.adga;
+  if (!adgaVersion) {
+    log.warn('ADGA dependency not found in package.json');
+    summary.push('- [ ] Dependency Check: ADGA dependency not found');
+    success = false;
+    return;
+  }
+  if (process.env['GITHUB_BASE_REF'] === 'main' && /beta/i.test(adgaVersion)) {
+    log.error('ADGA dependency has a beta tag but is being merged into main');
+    summary.push(`- [ ] Dependency Check: ADGA dependency has a beta tag (\`${adgaVersion}\`) but is being merged into main`);
+    success = false;
+  } else {
+    summary.push(`- [x] Dependency Check: ADGA dependency version is valid for branch (\`${adgaVersion}\`)`);
   }
 }
 async function checkSensitiveFiles() {
@@ -92,8 +118,12 @@ async function checkChangelog() {
 }
 (async () => {
   try {
+    console.log('Checking the branch...');
+    await checkBranch();
     console.log('Checking the version...');
     await checkVersion();
+    console.log('Checking the dependency versions...');
+    await checkDependencyVersions();
     console.log('Checking for sensitive files...');
     await checkSensitiveFiles();
     console.log('Previewing the changelog...');

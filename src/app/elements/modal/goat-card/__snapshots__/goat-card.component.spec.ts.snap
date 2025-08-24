@@ -5,7 +5,10 @@ exports[`GoatCardComponent With a Goat should match the snapshot 1`] = `
   animalTattoos={[Function Array]}
   born={[Function String]}
   colorAndMarking={[Function String]}
+  deceased="undefined"
   description={[Function String]}
+  el={[Function ElementRef]}
+  forSale="false"
   goat={[Function Object]}
   id={[Function String]}
   imageService={[Function ImageService]}
@@ -126,13 +129,13 @@ exports[`GoatCardComponent With a Goat should match the snapshot 1`] = `
           </span>
         </div>
       </div>
-      <span
+      <div
         test-id="description"
       >
         TEST_DESCRIPTION
-      </span>
+      </div>
     </div>
-    <app-pedigree />
+    <app-goat-info />
   </div>
 </app-modal-goat-card>
 `;
@@ -142,7 +145,10 @@ exports[`GoatCardComponent With an Empty Goat should match the snapshot 1`] = `
   animalTattoos="undefined"
   born="undefined"
   colorAndMarking="undefined"
+  deceased="undefined"
   description="undefined"
+  el={[Function ElementRef]}
+  forSale="false"
   goat={[Function Object]}
   id="undefined"
   imageService={[Function ImageService]}
@@ -171,7 +177,7 @@ exports[`GoatCardComponent With an Empty Goat should match the snapshot 1`] = `
       >
       </div>
     </div>
-    <app-pedigree />
+    <app-goat-info />
   </div>
 </app-modal-goat-card>
 `;

@@ -1,18 +1,21 @@
 import type { HttpErrorResponse } from '@angular/common/http';
-import { Goat } from 'src/app/services/goat/goat.service';
 
 import { Component, Input, OnInit } from '@angular/core';
 
 
+import { Meta } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import type { Observable } from 'rxjs';
+import { ConfigService } from '../../services/config/config.service';
+import { findMatch, type Goat } from '../../services/goat/goat.service';
 import { PlatformService } from '../../services/platform/platform.service';
 
 
 @Component({
   selector: 'app-goats',
   templateUrl: './goats.component.html',
-  styleUrls: ['./goats.component.scss']
+  styleUrls: ['./goats.component.scss'],
+  standalone: false
 })
 export class GoatsComponent implements OnInit {
   public err?: HttpErrorResponse;
@@ -21,7 +24,7 @@ export class GoatsComponent implements OnInit {
   public prerender = false;
   public bot = false;
   public searchParam?: string;
-  constructor(public route: ActivatedRoute, private platformService: PlatformService) {
+  constructor(public route: ActivatedRoute, private platformService: PlatformService, private configService: ConfigService, private meta: Meta) {
   }
   public goats?: Goat[];
   @Input({ required: true, alias: 'goats' }) getter!: Observable<Goat[]>;
@@ -37,10 +40,28 @@ export class GoatsComponent implements OnInit {
         }
         this.goats = goats;
         if (this.searchParam) {
-          this.activeGoatIndex = this.goats?.findIndex(goat => [goat.nickname, goat.name, goat.normalizeId].includes(this.searchParam));
+          this.activeGoatIndex = findMatch(this.searchParam, this.goats);
+        } else {
+          this.setDescription();
         }
       },
       error: err => this.err = err
     });
+  }
+  setDescription() {
+    let description = '';
+    if (this.configService.title) {
+      description += this.configService.title;
+      description += ` is currently home to ${this.goats?.length} ${(this.goats?.length === 1 ? this.name.slice(0, -1) : this.name).toLowerCase()}: `;
+    } else {
+      description += `The herd is currently home to ${this.goats?.length} ${(this.goats?.length === 1 ? this.name.slice(0, -1) : this.name).toLowerCase()}: `;
+    }
+    if (this.goats && this.goats.length > 0) {
+      const goatNames = this.goats.filter(goat => goat.name || goat.nickname).map(goat => goat.nickname || goat.name);
+      description += goatNames.length > 1
+        ? `${goatNames.slice(0, -1).join(', ')}${goatNames.length > 2 ? ',' : ''} and ${goatNames[goatNames.length - 1]}`
+        : goatNames[0];
+    }
+    this.meta.addTags([{ property: 'og:description', content: description }, { name: 'description', content: description }]);
   }
 }
