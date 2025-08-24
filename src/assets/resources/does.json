@@ -1321,39 +1321,6 @@
     "awards": []
   },
   {
-    "name": "Fyre FamFarm Watrmln Moonshine",
-    "dateOfBirth": "2023-06-06T15:20:16",
-    "dateOfDeath": null,
-    "normalizeId": "PD2324832",
-    "id": 2324832,
-    "sex": "Female",
-    "damId": 1806160,
-    "sireId": 2157990,
-    "ownerAccount": {
-      "displayName": "Angel Fyre"
-    },
-    "colorAndMarking": "Buckskin With White Spot Left Flank, White Poll, Blue Eyes",
-    "animalTattoo": [
-      {
-        "tattoo": "FF06",
-        "tattooLocation": {
-          "name": "RE"
-        }
-      },
-      {
-        "tattoo": "R5",
-        "tattooLocation": {
-          "name": "LE"
-        }
-      }
-    ],
-    "linearAppraisals": [],
-    "usdaId": "NDUSA000002324832",
-    "usdaKey": 2064943,
-    "lactationRecords": [],
-    "awards": []
-  },
-  {
     "name": "Little RedHouse Doli Partridge",
     "dateOfBirth": "2025-03-18T17:00:57",
     "dateOfDeath": null,
