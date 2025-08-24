@@ -116,46 +116,6 @@
     "awards": []
   },
   {
-    "name": "Fyre Famfarm Sweet'n Salty",
-    "dateOfBirth": "2022-03-23T13:54:52",
-    "normalizeId": "PD2227837",
-    "id": 2227837,
-    "sex": "Female",
-    "damId": 1889367,
-    "sireId": 1929176,
-    "ownerAccount": {
-      "displayName": "Angel Fyre"
-    },
-    "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
-    "linearAppraisals": [
-      {
-        "lactationNumber": 1,
-        "appraisalDate": "2023-07-31T00:00:00",
-        "generalAppearance": "A",
-        "dairyStrength": "G",
-        "bodyCapacity": "G",
-        "mammarySystem": "A",
-        "finalScore": 77,
-        "isPermanent": false,
-        "id": 306474
-      },
-      {
-        "lactationNumber": 2,
-        "appraisalDate": "2024-06-13T00:00:00",
-        "generalAppearance": "G",
-        "dairyStrength": "G",
-        "bodyCapacity": "V",
-        "mammarySystem": "A",
-        "finalScore": 81,
-        "isPermanent": false,
-        "id": 324135
-      }
-    ],
-    "awards": []
-  },
-  {
     "name": "Hetlandcreek SS Maestro Finale",
     "dateOfBirth": "2021-07-03T07:27:58",
     "normalizeId": "PD2185941",
@@ -218,30 +178,6 @@
       }
     ],
     "awards": []
-  },
-  {
-    "name": "Wolfivan Pappy Van Winkle",
-    "dateOfBirth": "2021-02-10T08:00:00",
-    "normalizeId": "PD2157990",
-    "id": 2157990,
-    "sex": "Male",
-    "damId": 1503562,
-    "sireId": 1731386,
-    "ownerAccount": {
-      "displayName": "Trenne Earl"
-    },
-    "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
-    "linearAppraisals": [],
-    "awards": [
-      {
-        "awardCode": "*B",
-        "awardDescription": "*Buck",
-        "awardYear": 2021,
-        "awardCount": 1
-      }
-    ]
   },
   {
     "name": "Redstone Warlock Raynman",
@@ -395,35 +331,6 @@
         "awardCount": 1
       }
     ]
-  },
-  {
-    "name": "Highland Ranch AD Sandls N Sox",
-    "dateOfBirth": "2019-03-05T00:00:00",
-    "normalizeId": "PD2013808",
-    "id": 1806160,
-    "sex": "Female",
-    "damId": 1572539,
-    "sireId": 1730006,
-    "ownerAccount": {
-      "displayName": "Angel Fyre"
-    },
-    "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
-    "linearAppraisals": [
-      {
-        "lactationNumber": 4,
-        "appraisalDate": "2023-07-31T00:00:00",
-        "generalAppearance": "G",
-        "dairyStrength": "V",
-        "bodyCapacity": "V",
-        "mammarySystem": "V",
-        "finalScore": 87,
-        "isPermanent": false,
-        "id": 303822
-      }
-    ],
-    "awards": []
   },
   {
     "name": "Gillis Family Farm Swiss Miss",
@@ -656,7 +563,7 @@
     ]
   },
   {
-    "name": "Highland Ranch 8sr Ravenna ",
+    "name": "Highland Ranch 8SR Ravenna ",
     "dateOfBirth": "2016-03-23T00:00:00",
     "normalizeId": "PD1780344",
     "id": 1572539,
@@ -791,7 +698,7 @@
     ]
   },
   {
-    "name": "Mint*leaf Majestic",
+    "name": "Mint*Leaf Majestic",
     "dateOfBirth": "2022-03-02T18:50:07",
     "normalizeId": "PL2222442",
     "id": 2222442,
@@ -848,7 +755,7 @@
     "awards": []
   },
   {
-    "name": "Argonne's Nevado",
+    "name": "Argonne'S Nevado",
     "dateOfBirth": "2021-03-01T00:00:00",
     "normalizeId": "PL2170610",
     "id": 2170610,
@@ -1075,36 +982,6 @@
         "awardCode": "*M (AR)",
         "awardDescription": "*Milker (AR) Butterfat",
         "awardYear": 2020,
-        "awardCount": 1
-      }
-    ]
-  },
-  {
-    "name": "Agape's Prize Sulaymaan Quinn",
-    "dateOfBirth": "2018-04-22T00:00:00",
-    "normalizeId": "PD1939070",
-    "id": 1731386,
-    "sex": "Male",
-    "damId": 1543547,
-    "sireId": 1326589,
-    "ownerAccount": {
-      "displayName": "Brianna Beckley"
-    },
-    "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
-    "linearAppraisals": [],
-    "awards": [
-      {
-        "awardCode": "+B (AR)",
-        "awardDescription": "3 AR Does - Different Dams",
-        "awardYear": 2021,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "*B",
-        "awardDescription": "*Buck",
-        "awardYear": 2019,
         "awardCount": 1
       }
     ]
@@ -1506,118 +1383,6 @@
     ]
   },
   {
-    "name": "SGCH Joyful Hearts KR Phoebe",
-    "dateOfBirth": "2015-01-03T00:00:00",
-    "normalizeId": "PD1711454",
-    "id": 1503562,
-    "sex": "Female",
-    "damId": 1411202,
-    "sireId": 1407062,
-    "ownerAccount": {
-      "displayName": "Renee Wolf"
-    },
-    "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": "2023-01-03T13:31:27",
-    "linearAppraisals": [
-      {
-        "lactationNumber": null,
-        "appraisalDate": "2016-05-26T00:00:00",
-        "generalAppearance": "+",
-        "dairyStrength": "V",
-        "bodyCapacity": "V",
-        "mammarySystem": "V",
-        "finalScore": 85,
-        "isPermanent": false,
-        "id": 237676
-      },
-      {
-        "lactationNumber": null,
-        "appraisalDate": "2017-06-08T00:00:00",
-        "generalAppearance": "V",
-        "dairyStrength": "E",
-        "bodyCapacity": "E",
-        "mammarySystem": "E",
-        "finalScore": 90,
-        "isPermanent": false,
-        "id": 248625
-      },
-      {
-        "lactationNumber": 4,
-        "appraisalDate": "2019-04-16T00:00:00",
-        "generalAppearance": "V",
-        "dairyStrength": "E",
-        "bodyCapacity": "E",
-        "mammarySystem": "E",
-        "finalScore": 91,
-        "isPermanent": false,
-        "id": 267256
-      }
-    ],
-    "awards": [
-      {
-        "awardCode": "*M (ST)",
-        "awardDescription": "*Milker (ST) Milker (Progeny)",
-        "awardYear": 2019,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "SGCH",
-        "awardDescription": "Superior Genetics Grand Champion",
-        "awardYear": 2017,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "GCH",
-        "awardDescription": "Grand Champion",
-        "awardYear": 2017,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "CH",
-        "awardDescription": "Champion",
-        "awardYear": 2017,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "*M (AR)",
-        "awardDescription": "*Milker (AR) Protein",
-        "awardYear": 2017,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "*M (AR)",
-        "awardDescription": "*Milker (AR) Butterfat",
-        "awardYear": 2017,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "*M (AR)",
-        "awardDescription": "*Milker (AR) Milk",
-        "awardYear": 2017,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "SG",
-        "awardDescription": "Superior Genetics",
-        "awardYear": 2017,
-        "awardCount": 1
-      },
-      {
-        "awardCode": "*M",
-        "awardDescription": "*Milker Gen. Ancestry",
-        "awardYear": 2016,
-        "awardCount": 2
-      },
-      {
-        "awardCode": "*M (ST)",
-        "awardDescription": "*Milker (ST) Milk Competition",
-        "awardYear": 2016,
-        "awardCount": 2
-      }
-    ]
-  },
-  {
     "name": "SG Stayawhile NW Southern Belle",
     "dateOfBirth": "2015-01-02T00:00:00",
     "normalizeId": "PD1711310",
@@ -1998,7 +1763,7 @@
     ]
   },
   {
-    "name": "Alethia ET I'm A Love Machine",
+    "name": "Alethia ET I'M A Love Machine",
     "dateOfBirth": "2014-02-01T00:00:00",
     "normalizeId": "PD1674729",
     "id": 1466770,
