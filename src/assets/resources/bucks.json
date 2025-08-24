@@ -1,6 +1,6 @@
 [
   {
-    "name": "Leisure Time Risesupfromtheash",
+    "name": "Leisure Time RisesUpFromTheAsh",
     "dateOfBirth": "2022-04-30T15:11:32",
     "normalizeId": "PD2342517",
     "id": 2342517,
@@ -46,7 +46,8 @@
         "awardYear": 2023,
         "awardCount": 1
       }
-    ]
+    ],
+    "nickname": "Ash"
   },
   {
     "name": "Little Redhouse Aric Axel",
