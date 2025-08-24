@@ -1,6 +1,40 @@
 [
   {
-    "name": "Leisure Time Risesupfromtheash",
+    "name": "Moon Station Holy Smokes",
+    "dateOfBirth": "2024-02-04T21:21:33",
+    "normalizeId": "PD2387687",
+    "id": 2387687,
+    "sex": "Male",
+    "damId": 1762057,
+    "sireId": 1656282,
+    "ownerAccount": {
+      "displayName": "Trenne Earl"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": []
+  },
+  {
+    "name": "Little RedHouse Aric Axel",
+    "dateOfBirth": "2024-03-08T12:28:40",
+    "normalizeId": "PD2371995",
+    "id": 2371995,
+    "sex": "Male",
+    "damId": 2158856,
+    "sireId": 2185941,
+    "ownerAccount": {
+      "displayName": "Angel Fyre"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": []
+  },
+  {
+    "name": "Leisure Time RisesUpFromTheAsh",
     "dateOfBirth": "2022-04-30T15:11:32",
     "normalizeId": "PD2342517",
     "id": 2342517,
@@ -36,6 +70,40 @@
     ]
   },
   {
+    "name": "Rockin-CB KT Richter",
+    "dateOfBirth": "2023-03-13T17:30:26",
+    "normalizeId": "PL2338153",
+    "id": 2338153,
+    "sex": "Male",
+    "damId": 2229574,
+    "sireId": 2254642,
+    "ownerAccount": {
+      "displayName": "Tanya & Quaid Callison"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": []
+  },
+  {
+    "name": "Fyre FamFarm Cowboy Queen",
+    "dateOfBirth": "2023-06-28T12:00:32",
+    "normalizeId": "PD2332443",
+    "id": 2332443,
+    "sex": "Female",
+    "damId": 1889367,
+    "sireId": 1850541,
+    "ownerAccount": {
+      "displayName": "Angel Fyre"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": []
+  },
+  {
     "name": "Rockin-CB An Rhetoric",
     "dateOfBirth": "2023-04-15T12:17:29",
     "normalizeId": "PL2323872",
@@ -45,6 +113,40 @@
     "sireId": 2170610,
     "ownerAccount": {
       "displayName": "Kristie & Michael Millson"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": []
+  },
+  {
+    "name": "Gabhran Creek Electric Smurf",
+    "dateOfBirth": "2023-03-18T15:44:57",
+    "normalizeId": "PL2318361",
+    "id": 2318361,
+    "sex": "Female",
+    "damId": 1890847,
+    "sireId": 1805209,
+    "ownerAccount": {
+      "displayName": "Corey & Tanya Callison"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": []
+  },
+  {
+    "name": "Fyre FamFarm Little Bit Spicey",
+    "dateOfBirth": "2023-04-28T16:51:17",
+    "normalizeId": "PD2301632",
+    "id": 2301632,
+    "sex": "Female",
+    "damId": 2227837,
+    "sireId": 2185941,
+    "ownerAccount": {
+      "displayName": "Angel Fyre"
     },
     "colorAndMarking": "",
     "animalTattoo": [],
@@ -116,6 +218,46 @@
     "awards": []
   },
   {
+    "name": "Fyre FamFarm Sweet'N Salty",
+    "dateOfBirth": "2022-03-23T13:54:52",
+    "normalizeId": "PD2227837",
+    "id": 2227837,
+    "sex": "Female",
+    "damId": 1889367,
+    "sireId": 1929176,
+    "ownerAccount": {
+      "displayName": "Angel Fyre"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [
+      {
+        "lactationNumber": 1,
+        "appraisalDate": "2023-07-31T00:00:00",
+        "generalAppearance": "A",
+        "dairyStrength": "G",
+        "bodyCapacity": "G",
+        "mammarySystem": "A",
+        "finalScore": 77,
+        "isPermanent": false,
+        "id": 306474
+      },
+      {
+        "lactationNumber": 2,
+        "appraisalDate": "2024-06-13T00:00:00",
+        "generalAppearance": "G",
+        "dairyStrength": "G",
+        "bodyCapacity": "V",
+        "mammarySystem": "A",
+        "finalScore": 81,
+        "isPermanent": false,
+        "id": 324135
+      }
+    ],
+    "awards": []
+  },
+  {
     "name": "Hetlandcreek SS Maestro Finale",
     "dateOfBirth": "2021-07-03T07:27:58",
     "normalizeId": "PD2185941",
@@ -178,6 +320,95 @@
       }
     ],
     "awards": []
+  },
+  {
+    "name": "Wolfivan Pappy Van Winkle",
+    "dateOfBirth": "2021-02-10T08:00:00",
+    "normalizeId": "PD2157990",
+    "id": 2157990,
+    "sex": "Male",
+    "damId": 1503562,
+    "sireId": 1731386,
+    "ownerAccount": {
+      "displayName": "Trenne Earl"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": [
+      {
+        "awardCode": "*B",
+        "awardDescription": "*Buck",
+        "awardYear": 2021,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
+    "name": "Puddlejumper Lavender",
+    "dateOfBirth": "2019-04-30T00:00:00",
+    "normalizeId": "PL2144778",
+    "id": 1937316,
+    "sex": "Female",
+    "damId": 1585413,
+    "sireId": 853861,
+    "ownerAccount": {
+      "displayName": "Angela & Johnna Shurtleff"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2021-11-21T00:00:00",
+        "generalAppearance": "V",
+        "dairyStrength": "V",
+        "bodyCapacity": "V",
+        "mammarySystem": "V",
+        "finalScore": 86,
+        "isPermanent": false,
+        "id": 287295
+      },
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2023-09-26T00:00:00",
+        "generalAppearance": "v",
+        "dairyStrength": "e",
+        "bodyCapacity": "e",
+        "mammarySystem": "v",
+        "finalScore": 87,
+        "isPermanent": false,
+        "id": 307743
+      }
+    ],
+    "awards": [
+      {
+        "awardCode": "*M",
+        "awardDescription": "*Milker Gen. Ancestry",
+        "awardYear": 2021,
+        "awardCount": 8
+      },
+      {
+        "awardCode": "*M (AR)",
+        "awardDescription": "*Milker (AR) Protein",
+        "awardYear": 2021,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*M (AR)",
+        "awardDescription": "*Milker (AR) Butterfat",
+        "awardYear": 2021,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*M (AR)",
+        "awardDescription": "*Milker (AR) Milk",
+        "awardYear": 2021,
+        "awardCount": 1
+      }
+    ]
   },
   {
     "name": "Redstone Warlock Raynman",
@@ -331,6 +562,86 @@
         "awardCount": 1
       }
     ]
+  },
+  {
+    "name": "Hetlandcreek ZZ Blackbird Fly",
+    "dateOfBirth": "2019-04-06T00:00:00",
+    "normalizeId": "PD2016366",
+    "id": 1808723,
+    "sex": "Female",
+    "damId": 1564444,
+    "sireId": 1644245,
+    "ownerAccount": {
+      "displayName": "Trenne Earl"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2021-08-11T00:00:00",
+        "generalAppearance": "+",
+        "dairyStrength": "V",
+        "bodyCapacity": "V",
+        "mammarySystem": "V",
+        "finalScore": 86,
+        "isPermanent": false,
+        "id": 285465
+      },
+      {
+        "lactationNumber": 3,
+        "appraisalDate": "2023-08-01T00:00:00",
+        "generalAppearance": "G",
+        "dairyStrength": "E",
+        "bodyCapacity": "E",
+        "mammarySystem": "E",
+        "finalScore": 88,
+        "isPermanent": false,
+        "id": 303847
+      },
+      {
+        "lactationNumber": 4,
+        "appraisalDate": "2024-06-13T00:00:00",
+        "generalAppearance": "V",
+        "dairyStrength": "V",
+        "bodyCapacity": "V",
+        "mammarySystem": "V",
+        "finalScore": 86,
+        "isPermanent": true,
+        "id": 324157
+      }
+    ],
+    "awards": []
+  },
+  {
+    "name": "Highland Ranch AD Sandls N Sox",
+    "dateOfBirth": "2019-03-05T00:00:00",
+    "normalizeId": "PD2013808",
+    "id": 1806160,
+    "sex": "Female",
+    "damId": 1572539,
+    "sireId": 1730006,
+    "ownerAccount": {
+      "displayName": "Angel Fyre"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [
+      {
+        "lactationNumber": 4,
+        "appraisalDate": "2023-07-31T00:00:00",
+        "generalAppearance": "G",
+        "dairyStrength": "V",
+        "bodyCapacity": "V",
+        "mammarySystem": "V",
+        "finalScore": 87,
+        "isPermanent": false,
+        "id": 303822
+      }
+    ],
+    "awards": []
   },
   {
     "name": "Gillis Family Farm Swiss Miss",
@@ -674,6 +985,72 @@
     "awards": []
   },
   {
+    "name": "One*Oak*Hill Luxor Tadoo",
+    "dateOfBirth": "1998-02-23T00:00:00",
+    "normalizeId": "AL1100293",
+    "id": 891045,
+    "sex": "Male",
+    "damId": 845964,
+    "sireId": 856250,
+    "ownerAccount": {
+      "displayName": ""
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": "2013-07-30T00:00:00",
+    "linearAppraisals": [
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2004-09-09T00:00:00",
+        "generalAppearance": "V ",
+        "dairyStrength": "E ",
+        "bodyCapacity": "E ",
+        "mammarySystem": null,
+        "finalScore": 89,
+        "isPermanent": true,
+        "id": 142954
+      }
+    ],
+    "awards": [
+      {
+        "awardCode": "+B (AR)",
+        "awardDescription": "3 AR Does - Different Dams",
+        "awardYear": 2010,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "LINEAR",
+        "awardDescription": "Linear Appraisal",
+        "awardYear": 2003,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
+    "name": "Kastdemur'S Trendsetter",
+    "dateOfBirth": "2022-02-08T11:36:43",
+    "normalizeId": "PL2254642",
+    "id": 2254642,
+    "sex": "Male",
+    "damId": 1657567,
+    "sireId": 1483163,
+    "ownerAccount": {
+      "displayName": "Cindy L & Robert L Silva"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": [
+      {
+        "awardCode": "*B",
+        "awardDescription": "*Buck",
+        "awardYear": 2022,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
     "name": "Alder Grove AC Platinum",
     "dateOfBirth": "2022-03-23T15:22:11",
     "normalizeId": "PL2250720",
@@ -696,6 +1073,23 @@
         "awardCount": 1
       }
     ]
+  },
+  {
+    "name": "Rockin-CB Aam Parker",
+    "dateOfBirth": "2022-03-20T09:32:14",
+    "normalizeId": "PL2229574",
+    "id": 2229574,
+    "sex": "Female",
+    "damId": 2162126,
+    "sireId": 1878254,
+    "ownerAccount": {
+      "displayName": "Denette March"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": []
   },
   {
     "name": "Mint*Leaf Majestic",
@@ -794,6 +1188,35 @@
         "awardCount": 1
       }
     ]
+  },
+  {
+    "name": "Sand Stone Ridge AK Prussian",
+    "dateOfBirth": "2020-04-07T00:00:00",
+    "normalizeId": "PL2098369",
+    "id": 1890847,
+    "sex": "Female",
+    "damId": 1813553,
+    "sireId": 1738839,
+    "ownerAccount": {
+      "displayName": "Corey & Tanya Callison"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2023-06-16T00:00:00",
+        "generalAppearance": "a",
+        "dairyStrength": "v",
+        "bodyCapacity": "g",
+        "mammarySystem": "v",
+        "finalScore": 82,
+        "isPermanent": false,
+        "id": 307680
+      }
+    ],
+    "awards": []
   },
   {
     "name": "Wolfivan CQ Kentucky Bourbon",
@@ -915,6 +1338,47 @@
     ]
   },
   {
+    "name": "Kastdemur'S Vermouth",
+    "dateOfBirth": "2019-03-23T00:00:00",
+    "normalizeId": "PL2012859",
+    "id": 1805209,
+    "sex": "Male",
+    "damId": 1510477,
+    "sireId": 1573072,
+    "ownerAccount": {
+      "displayName": "Syndicate Vermouth"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": [
+      {
+        "awardCode": "*B",
+        "awardDescription": "*Buck",
+        "awardYear": 2019,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
+    "name": "40 West Farm Smoke Signal ",
+    "dateOfBirth": "2018-03-08T00:00:00",
+    "normalizeId": "PD1969722",
+    "id": 1762057,
+    "sex": "Female",
+    "damId": 1597381,
+    "sireId": 1318803,
+    "ownerAccount": {
+      "displayName": "Kimberly Phillips"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": []
+  },
+  {
     "name": "Leisure Time ZZ GQ",
     "dateOfBirth": "2018-03-04T00:00:00",
     "normalizeId": "PD1962239",
@@ -987,6 +1451,36 @@
     ]
   },
   {
+    "name": "Agape'S Prize Sulaymaan Quinn",
+    "dateOfBirth": "2018-04-22T00:00:00",
+    "normalizeId": "PD1939070",
+    "id": 1731386,
+    "sex": "Male",
+    "damId": 1543547,
+    "sireId": 1326589,
+    "ownerAccount": {
+      "displayName": "Brianna Beckley"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [],
+    "dateOfDeath": null,
+    "linearAppraisals": [],
+    "awards": [
+      {
+        "awardCode": "+B (AR)",
+        "awardDescription": "3 AR Does - Different Dams",
+        "awardYear": 2021,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*B",
+        "awardDescription": "*Buck",
+        "awardYear": 2019,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
     "name": "Alder Grove CW Kricket",
     "dateOfBirth": "2018-02-23T00:00:00",
     "normalizeId": "PL1935473",
@@ -1018,6 +1512,7 @@
   {
     "name": "Redstone DHRV Rayna James",
     "dateOfBirth": "2017-01-23T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1930043",
     "id": 1722358,
     "sex": "Female",
@@ -1027,8 +1522,7 @@
       "displayName": "Alexis Bachrach"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": null,
@@ -1083,6 +1577,7 @@
   {
     "name": "Stayawhile CR Pulitzer",
     "dateOfBirth": "2018-03-09T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1928419",
     "id": 1720734,
     "sex": "Male",
@@ -1092,8 +1587,7 @@
       "displayName": "Rollie & Denise Fugate"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [],
     "awards": [
       {
@@ -1105,8 +1599,74 @@
     ]
   },
   {
+    "name": "GCH Wood Bridge Farm Count On Me",
+    "dateOfBirth": "2017-04-24T00:00:00",
+    "dateOfDeath": null,
+    "normalizeId": "PD1863927",
+    "id": 1656282,
+    "sex": "Male",
+    "damId": 1521475,
+    "sireId": 1543525,
+    "ownerAccount": {
+      "displayName": "Donna Lavery"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": {},
+    "linearAppraisals": [
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2019-04-13T00:00:00",
+        "generalAppearance": "V",
+        "dairyStrength": "V",
+        "bodyCapacity": "E",
+        "mammarySystem": null,
+        "finalScore": 88,
+        "isPermanent": false,
+        "id": 267113
+      },
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2020-03-09T00:00:00",
+        "generalAppearance": "V",
+        "dairyStrength": "V",
+        "bodyCapacity": "E",
+        "mammarySystem": null,
+        "finalScore": 88,
+        "isPermanent": false,
+        "id": 277466
+      }
+    ],
+    "awards": [
+      {
+        "awardCode": "GCH",
+        "awardDescription": "Grand Champion",
+        "awardYear": 2020,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "CH",
+        "awardDescription": "Champion",
+        "awardYear": 2020,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "+B (AR)",
+        "awardDescription": "3 AR Does - Different Dams",
+        "awardYear": 2020,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*B",
+        "awardDescription": "*Buck",
+        "awardYear": 2020,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
     "name": "Gabhran Creek Fullmetal Jacket",
     "dateOfBirth": "2017-01-09T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1847132",
     "id": 1639447,
     "sex": "Male",
@@ -1116,8 +1676,7 @@
       "displayName": ""
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": null,
@@ -1149,6 +1708,7 @@
   {
     "name": "SGCH Alder Grove AC All That Jazz",
     "dateOfBirth": "2017-03-02T00:00:00",
+    "dateOfDeath": "2024-03-03T14:27:18",
     "normalizeId": "PL1843020",
     "id": 1635336,
     "sex": "Female",
@@ -1158,8 +1718,7 @@
       "displayName": ""
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": "2024-03-03T14:27:18",
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": 1,
@@ -1237,6 +1796,7 @@
   {
     "name": "Leisure Time TW Smooth Jazz",
     "dateOfBirth": "2016-05-04T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1797445",
     "id": 1589660,
     "sex": "Female",
@@ -1246,8 +1806,7 @@
       "displayName": "Kristine Struve-Hagan"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": 1,
@@ -1311,8 +1870,122 @@
     ]
   },
   {
+    "name": "York Mtn. Roxie",
+    "dateOfBirth": "2016-05-06T00:00:00",
+    "dateOfDeath": null,
+    "normalizeId": "AL1793198",
+    "id": 1585413,
+    "sex": "Female",
+    "damId": 1514339,
+    "sireId": 1484383,
+    "ownerAccount": {
+      "displayName": "Barbara Lynn Anderson"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": {},
+    "linearAppraisals": [
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2021-11-21T00:00:00",
+        "generalAppearance": "+",
+        "dairyStrength": "V",
+        "bodyCapacity": "+",
+        "mammarySystem": "V",
+        "finalScore": 87,
+        "isPermanent": true,
+        "id": 282659
+      }
+    ],
+    "awards": [
+      {
+        "awardCode": "*M",
+        "awardDescription": "*Milker Gen. Ancestry",
+        "awardYear": 2021,
+        "awardCount": 7
+      },
+      {
+        "awardCode": "*M (AR)",
+        "awardDescription": "*Milker (AR) Butterfat",
+        "awardYear": 2021,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
+    "name": "GCH Hetlandcreek HB Swan Harmonica",
+    "dateOfBirth": "2016-03-15T00:00:00",
+    "dateOfDeath": null,
+    "normalizeId": "PD1772229",
+    "id": 1564444,
+    "sex": "Female",
+    "damId": 1345760,
+    "sireId": 1438166,
+    "ownerAccount": {
+      "displayName": "Trenne Earl"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": {},
+    "linearAppraisals": [
+      {
+        "lactationNumber": 1,
+        "appraisalDate": "2018-07-20T00:00:00",
+        "generalAppearance": "V",
+        "dairyStrength": "V",
+        "bodyCapacity": "E",
+        "mammarySystem": "E",
+        "finalScore": 89,
+        "isPermanent": false,
+        "id": 261906
+      },
+      {
+        "lactationNumber": 2,
+        "appraisalDate": "2019-06-17T00:00:00",
+        "generalAppearance": "V",
+        "dairyStrength": "V",
+        "bodyCapacity": "E",
+        "mammarySystem": "E",
+        "finalScore": 90,
+        "isPermanent": false,
+        "id": 269652
+      }
+    ],
+    "awards": [
+      {
+        "awardCode": "GCH",
+        "awardDescription": "Grand Champion",
+        "awardYear": 2019,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "CH",
+        "awardDescription": "Champion",
+        "awardYear": 2019,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*M (ST)",
+        "awardDescription": "*Milker Owner Sample (Butterfat)",
+        "awardYear": 2018,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*M",
+        "awardDescription": "*Milker Gen. Ancestry",
+        "awardYear": 2018,
+        "awardCount": 6
+      },
+      {
+        "awardCode": "*M (ST)",
+        "awardDescription": "*Milker Owner Sample (Protein)",
+        "awardYear": 2018,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
     "name": "Leisure Time TT Silver Coconut",
     "dateOfBirth": "2015-03-08T00:00:00",
+    "dateOfDeath": "2019-12-12T00:00:00",
     "normalizeId": "PD1725037",
     "id": 1517162,
     "sex": "Male",
@@ -1322,8 +1995,7 @@
       "displayName": ""
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": "2019-12-12T00:00:00",
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": null,
@@ -1349,6 +2021,7 @@
   {
     "name": "Hetlandcreek TT 8 Second Ride",
     "dateOfBirth": "2015-03-14T00:00:00",
+    "dateOfDeath": "2017-10-15T00:00:00",
     "normalizeId": "PD1721551",
     "id": 1513663,
     "sex": "Male",
@@ -1358,8 +2031,7 @@
       "displayName": ""
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": "2017-10-15T00:00:00",
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": null,
@@ -1383,8 +2055,121 @@
     ]
   },
   {
+    "name": "SGCH Joyful Hearts KR Phoebe",
+    "dateOfBirth": "2015-01-03T00:00:00",
+    "dateOfDeath": "2023-01-03T13:31:27",
+    "normalizeId": "PD1711454",
+    "id": 1503562,
+    "sex": "Female",
+    "damId": 1411202,
+    "sireId": 1407062,
+    "ownerAccount": {
+      "displayName": "Renee Wolf"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": {},
+    "linearAppraisals": [
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2016-05-26T00:00:00",
+        "generalAppearance": "+",
+        "dairyStrength": "V",
+        "bodyCapacity": "V",
+        "mammarySystem": "V",
+        "finalScore": 85,
+        "isPermanent": false,
+        "id": 237676
+      },
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2017-06-08T00:00:00",
+        "generalAppearance": "V",
+        "dairyStrength": "E",
+        "bodyCapacity": "E",
+        "mammarySystem": "E",
+        "finalScore": 90,
+        "isPermanent": false,
+        "id": 248625
+      },
+      {
+        "lactationNumber": 4,
+        "appraisalDate": "2019-04-16T00:00:00",
+        "generalAppearance": "V",
+        "dairyStrength": "E",
+        "bodyCapacity": "E",
+        "mammarySystem": "E",
+        "finalScore": 91,
+        "isPermanent": false,
+        "id": 267256
+      }
+    ],
+    "awards": [
+      {
+        "awardCode": "*M (ST)",
+        "awardDescription": "*Milker (ST) Milker (Progeny)",
+        "awardYear": 2019,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "SGCH",
+        "awardDescription": "Superior Genetics Grand Champion",
+        "awardYear": 2017,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "GCH",
+        "awardDescription": "Grand Champion",
+        "awardYear": 2017,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "CH",
+        "awardDescription": "Champion",
+        "awardYear": 2017,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*M (AR)",
+        "awardDescription": "*Milker (AR) Protein",
+        "awardYear": 2017,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*M (AR)",
+        "awardDescription": "*Milker (AR) Butterfat",
+        "awardYear": 2017,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*M (AR)",
+        "awardDescription": "*Milker (AR) Milk",
+        "awardYear": 2017,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "SG",
+        "awardDescription": "Superior Genetics",
+        "awardYear": 2017,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*M",
+        "awardDescription": "*Milker Gen. Ancestry",
+        "awardYear": 2016,
+        "awardCount": 2
+      },
+      {
+        "awardCode": "*M (ST)",
+        "awardDescription": "*Milker (ST) Milk Competition",
+        "awardYear": 2016,
+        "awardCount": 2
+      }
+    ]
+  },
+  {
     "name": "SG Stayawhile NW Southern Belle",
     "dateOfBirth": "2015-01-02T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1711310",
     "id": 1503418,
     "sex": "Female",
@@ -1394,8 +2179,7 @@
       "displayName": "Kaitlyn Berryhill"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": 1,
@@ -1456,6 +2240,7 @@
   {
     "name": "Leisure Time SophisticatedLady",
     "dateOfBirth": "2014-06-20T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1695221",
     "id": 1487307,
     "sex": "Female",
@@ -1465,8 +2250,7 @@
       "displayName": "Kristine Struve-Hagan"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": 1,
@@ -1549,6 +2333,7 @@
   {
     "name": "Blue Bear A Dilettante",
     "dateOfBirth": "2014-05-01T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1685649",
     "id": 1477710,
     "sex": "Female",
@@ -1558,14 +2343,14 @@
       "displayName": "Katie Velotta"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [],
     "awards": []
   },
   {
     "name": "Leisure Time Oh Tinker Belle",
     "dateOfBirth": "2014-02-18T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1680041",
     "id": 1472095,
     "sex": "Female",
@@ -1575,8 +2360,7 @@
       "displayName": "Kristine Struve-Hagan"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": 1,
@@ -1648,6 +2432,7 @@
   {
     "name": "SGCH Leisure Time TW MoondustMayhem",
     "dateOfBirth": "2014-04-06T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1680034",
     "id": 1472088,
     "sex": "Female",
@@ -1657,8 +2442,7 @@
       "displayName": "Kristine Struve-Hagan"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": 1,
@@ -1765,6 +2549,7 @@
   {
     "name": "Alethia ET I'M A Love Machine",
     "dateOfBirth": "2014-02-01T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1674729",
     "id": 1466770,
     "sex": "Male",
@@ -1774,8 +2559,7 @@
       "displayName": "Denise Hetland"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [],
     "awards": [
       {
@@ -1801,6 +2585,7 @@
   {
     "name": "Algedi Farm CK Seirene Song",
     "dateOfBirth": "2012-05-18T00:00:00",
+    "dateOfDeath": "2018-03-11T00:00:00",
     "normalizeId": "PD1618182",
     "id": 1410083,
     "sex": "Female",
@@ -1810,8 +2595,7 @@
       "displayName": ""
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": "2018-03-11T00:00:00",
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": 1,
@@ -1866,6 +2650,7 @@
   {
     "name": "GCH Leisure Time CF The Works",
     "dateOfBirth": "2012-04-19T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1599690",
     "id": 1391527,
     "sex": "Male",
@@ -1875,8 +2660,7 @@
       "displayName": "Kristine Struve-Hagan"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": null,
@@ -1975,6 +2759,7 @@
   {
     "name": "Celtic Stars Golden Glory",
     "dateOfBirth": "2009-03-06T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1576227",
     "id": 1368049,
     "sex": "Female",
@@ -1984,14 +2769,14 @@
       "displayName": "Brenda Phillips"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [],
     "awards": []
   },
   {
     "name": "GCH Algedi Farm MH Andante",
     "dateOfBirth": "2010-03-23T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1510022",
     "id": 1301729,
     "sex": "Female",
@@ -2001,8 +2786,7 @@
       "displayName": "Denise Hetland"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [
       {
         "lactationNumber": null,
@@ -2075,6 +2859,7 @@
   {
     "name": "Old Mountain Farm Stag Party",
     "dateOfBirth": "2010-01-08T00:00:00",
+    "dateOfDeath": null,
     "normalizeId": "PD1504459",
     "id": 1296157,
     "sex": "Male",
@@ -2084,8 +2869,7 @@
       "displayName": "Amy York"
     },
     "colorAndMarking": "",
-    "animalTattoo": [],
-    "dateOfDeath": null,
+    "animalTattoo": {},
     "linearAppraisals": [],
     "awards": [
       {
@@ -2113,5 +2897,142 @@
         "awardCount": 1
       }
     ]
+  },
+  {
+    "name": "One*Oak*Hill Tweed Luxor",
+    "dateOfBirth": "1997-02-26T00:00:00",
+    "dateOfDeath": null,
+    "normalizeId": "AL1066604",
+    "id": 856250,
+    "sex": "Male",
+    "damId": 750574,
+    "sireId": 763924,
+    "ownerAccount": {
+      "displayName": ""
+    },
+    "colorAndMarking": "",
+    "animalTattoo": {},
+    "linearAppraisals": [],
+    "awards": [
+      {
+        "awardCode": "+B (ST)",
+        "awardDescription": "1 AR Buck And 2 AR/ST Does",
+        "awardYear": 2010,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "+B (AR)",
+        "awardDescription": "3 AR Does - Different Dams",
+        "awardYear": 2002,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
+    "name": "SGCH Rockspring Con Del Darkness",
+    "dateOfBirth": "1997-02-15T00:00:00",
+    "dateOfDeath": "2010-02-01T00:00:00",
+    "normalizeId": "PL1064369",
+    "id": 853861,
+    "sex": "Male",
+    "damId": 811959,
+    "sireId": 753671,
+    "ownerAccount": {
+      "displayName": ""
+    },
+    "colorAndMarking": "",
+    "animalTattoo": {},
+    "linearAppraisals": [
+      {
+        "lactationNumber": null,
+        "appraisalDate": "2000-07-25T00:00:00",
+        "generalAppearance": "V ",
+        "dairyStrength": "E ",
+        "bodyCapacity": "E ",
+        "mammarySystem": null,
+        "finalScore": 89,
+        "isPermanent": false,
+        "id": 112688
+      }
+    ],
+    "awards": [
+      {
+        "awardCode": "SGCH",
+        "awardDescription": "Superior Genetics Grand Champion",
+        "awardYear": 2006,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "SG",
+        "awardDescription": "Superior Genetics",
+        "awardYear": 2006,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "++B (ST)",
+        "awardDescription": "1 ST Buck And 2 AR/ST Does",
+        "awardYear": 2004,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "++B (AR)",
+        "awardDescription": "3 AR Does And 2 AR Bucks",
+        "awardYear": 2005,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "+B (AR)",
+        "awardDescription": "2 AR Bucks",
+        "awardYear": 2005,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "GCH",
+        "awardDescription": "Grand Champion",
+        "awardYear": 2001,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "+B (ST)",
+        "awardDescription": "1 AR Buck And 2 AR/ST Does",
+        "awardYear": 2003,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "+B (AR)",
+        "awardDescription": "3 AR Does - Different Dams",
+        "awardYear": 2002,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "*B",
+        "awardDescription": "*Buck",
+        "awardYear": 1997,
+        "awardCount": 1
+      },
+      {
+        "awardCode": "LINEAR",
+        "awardDescription": "Linear Appraisal",
+        "awardYear": 2000,
+        "awardCount": 1
+      }
+    ]
+  },
+  {
+    "name": "One*Oak*Hill Tweed Tease",
+    "dateOfBirth": "1996-03-05T00:00:00",
+    "dateOfDeath": null,
+    "normalizeId": "AL1056752",
+    "id": 845964,
+    "sex": "Female",
+    "damId": 726313,
+    "sireId": 763924,
+    "ownerAccount": {
+      "displayName": "Gerald Black Family"
+    },
+    "colorAndMarking": "",
+    "animalTattoo": {},
+    "linearAppraisals": [],
+    "awards": []
   }
 ]
