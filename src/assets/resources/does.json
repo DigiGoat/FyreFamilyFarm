@@ -418,7 +418,8 @@
         ]
       }
     ],
-    "awards": []
+    "awards": [],
+    "description": "# header\n## smaller header\n### even smaller\nSome fun info about *JuJu* to **display**"
   },
   {
     "name": "Gillis Family Farm Almond Roca",
