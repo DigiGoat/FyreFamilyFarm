@@ -28,5 +28,29 @@
     ],
     "nickname": "Star",
     "price": "350"
+  },
+  {
+    "name": "Fyre FamFarm Rua Sweet Tart",
+    "dateOfBirth": "2025-03-26T21:36:40",
+    "dateOfDeath": null,
+    "normalizeId": "PD2442068",
+    "id": 2442068,
+    "sex": "Female",
+    "damId": 1889367,
+    "sireId": 2342517,
+    "ownerAccount": {
+      "displayName": ""
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [
+      {
+        "tattoo": "FF06",
+        "tattooLocation": {}
+      },
+      {
+        "tattoo": "T7",
+        "tattooLocation": {}
+      }
+    ]
   }
 ]
