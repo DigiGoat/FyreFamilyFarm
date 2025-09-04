@@ -39,18 +39,24 @@
     "damId": 1889367,
     "sireId": 2342517,
     "ownerAccount": {
-      "displayName": ""
+      "displayName": "Angel Fyre"
     },
-    "colorAndMarking": "",
+    "colorAndMarking": "Chocolate Buckskin, Minimal White, Brown Eyes",
     "animalTattoo": [
       {
         "tattoo": "FF06",
-        "tattooLocation": {}
+        "tattooLocation": {
+          "name": "RE"
+        }
       },
       {
         "tattoo": "T7",
-        "tattooLocation": {}
+        "tattooLocation": {
+          "name": "LE"
+        }
       }
-    ]
+    ],
+    "nickname": "Tart",
+    "price": "$350.00"
   }
 ]
