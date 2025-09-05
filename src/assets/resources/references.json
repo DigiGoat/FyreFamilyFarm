@@ -12,5 +12,19 @@
       "displayName": ""
     },
     "colorAndMarking": ""
+  },
+  {
+    "name": "Little RedHouse Flying Mantis",
+    "dateOfBirth": "2025-03-20T13:56:23",
+    "dateOfDeath": null,
+    "normalizeId": "PD2432958",
+    "id": 2432958,
+    "sex": "Male",
+    "damId": 1723847,
+    "sireId": 2356556,
+    "ownerAccount": {
+      "displayName": ""
+    },
+    "colorAndMarking": ""
   }
 ]
