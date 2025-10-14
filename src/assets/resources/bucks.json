@@ -81,37 +81,5 @@
     "awards": [],
     "nickname": "Axel",
     "description": "Nigerian Dwarf"
-  },
-  {
-    "name": "Fyre FamFarm Rua Awakened Rivr",
-    "dateOfBirth": "2025-03-24T12:44:40",
-    "dateOfDeath": null,
-    "normalizeId": "PD2441850",
-    "id": 2441850,
-    "sex": "Male",
-    "damId": 1806160,
-    "sireId": 2342517,
-    "ownerAccount": {
-      "displayName": "Angel Fyre"
-    },
-    "colorAndMarking": "Broken Buckskin, Ear Frosting, Blue Eyes",
-    "animalTattoo": [
-      {
-        "tattoo": "FF06",
-        "tattooLocation": {
-          "name": "RE"
-        }
-      },
-      {
-        "tattoo": "T1",
-        "tattooLocation": {
-          "name": "LE"
-        }
-      }
-    ],
-    "linearAppraisals": [],
-    "awards": [],
-    "nickname": "River",
-    "description": "Nigerian Dwarf"
   }
 ]
