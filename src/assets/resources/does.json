@@ -1557,41 +1557,6 @@
     "description": "Nigerian Dwarf"
   },
   {
-    "name": "Fyre FamFarm AA Primrose",
-    "dateOfBirth": "2025-04-10T14:17:29",
-    "dateOfDeath": null,
-    "normalizeId": "PD2441901",
-    "id": 2441901,
-    "sex": "Female",
-    "damId": 2238727,
-    "sireId": 2371995,
-    "ownerAccount": {
-      "displayName": "Angel Fyre"
-    },
-    "colorAndMarking": "Broken Buckskin, Brown Eyes",
-    "animalTattoo": [
-      {
-        "tattoo": "FF06",
-        "tattooLocation": {
-          "name": "RE"
-        }
-      },
-      {
-        "tattoo": "T15",
-        "tattooLocation": {
-          "name": "LE"
-        }
-      }
-    ],
-    "linearAppraisals": [],
-    "usdaId": "NDUSA000002441901",
-    "usdaKey": 2174169,
-    "lactationRecords": [],
-    "awards": [],
-    "nickname": "Rose",
-    "description": "Nigerian Dwarf"
-  },
-  {
     "name": "Fyre FamFarm Rua Sweet Tart",
     "dateOfBirth": "2025-03-26T21:36:40",
     "dateOfDeath": null,
