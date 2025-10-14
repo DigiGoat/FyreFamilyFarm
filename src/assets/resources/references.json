@@ -40,5 +40,19 @@
       "displayName": ""
     },
     "colorAndMarking": ""
+  },
+  {
+    "name": "Kastdemur'S Ways Of A Warlock",
+    "dateOfBirth": "2022-04-07T17:38:02",
+    "dateOfDeath": null,
+    "normalizeId": "PL2236428",
+    "id": 2236428,
+    "sex": "Male",
+    "damId": 1424740,
+    "sireId": 2169565,
+    "ownerAccount": {
+      "displayName": ""
+    },
+    "colorAndMarking": ""
   }
 ]
