@@ -1,40 +1,5 @@
 [
   {
-    "name": "Fyre Famfarm Rua Wildflowers",
-    "dateOfBirth": "2024-03-06T17:02:41",
-    "normalizeId": "PD2371136",
-    "id": 2371136,
-    "sex": "Female",
-    "damId": 2238727,
-    "sireId": 2342517,
-    "ownerAccount": {
-      "displayName": "Angel Fyre"
-    },
-    "colorAndMarking": "Heavely Broken Light Buckskin, Browneyes",
-    "animalTattoo": [
-      {
-        "tattoo": "FF06",
-        "tattooLocation": {
-          "name": "RE"
-        }
-      },
-      {
-        "tattoo": "S4",
-        "tattooLocation": {
-          "name": "LE"
-        }
-      }
-    ],
-    "dateOfDeath": null,
-    "linearAppraisals": [],
-    "usdaId": "NDUSA000002371136",
-    "usdaKey": 2098102,
-    "lactationRecords": [],
-    "awards": [],
-    "nickname": "Daisy",
-    "description": "Nigerian Dwarf"
-  },
-  {
     "name": "Alder Grove RR Lickety-Split",
     "dateOfBirth": "2024-04-30T17:29:10",
     "normalizeId": "PL2391326",
