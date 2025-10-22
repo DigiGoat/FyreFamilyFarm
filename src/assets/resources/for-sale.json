@@ -90,7 +90,7 @@
     "nickname": "Katy"
   },
   {
-    "name": "Fyre FamFarm Rua Rainy Monday ",
+    "name": "Fyre FamFarm Rua RainY Monday ",
     "dateOfBirth": "2025-03-24T12:37:01",
     "dateOfDeath": null,
     "normalizeId": "PD2441851",
@@ -111,6 +111,8 @@
         "tattoo": "T2",
         "tattooLocation": {}
       }
-    ]
+    ],
+    "nickname": "Monday",
+    "price": "200.00"
   }
 ]
