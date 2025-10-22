@@ -140,5 +140,29 @@
     ],
     "nickname": "Taylor",
     "price": "200"
+  },
+  {
+    "name": "Little RedHouse Doli Partridge",
+    "dateOfBirth": "2025-03-18T17:00:57",
+    "dateOfDeath": null,
+    "normalizeId": "PD2430037",
+    "id": 2430037,
+    "sex": "Female",
+    "damId": 1808723,
+    "sireId": 2387687,
+    "ownerAccount": {
+      "displayName": ""
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [
+      {
+        "tattoo": "LRH1",
+        "tattooLocation": {}
+      },
+      {
+        "tattoo": "T5",
+        "tattooLocation": {}
+      }
+    ]
   }
 ]
