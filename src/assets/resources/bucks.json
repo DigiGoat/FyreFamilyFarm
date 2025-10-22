@@ -1,56 +1,5 @@
 [
   {
-    "name": "Leisure Time RisesUpFromTheAsh",
-    "dateOfBirth": "2022-04-30T15:11:32",
-    "normalizeId": "PD2342517",
-    "id": 2342517,
-    "sex": "Male",
-    "damId": 1808762,
-    "sireId": 1643421,
-    "ownerAccount": {
-      "displayName": "Angel Fyre"
-    },
-    "colorAndMarking": "Light Buckskin, Brown Eyes",
-    "animalTattoo": [
-      {
-        "tattoo": "1LTD",
-        "tattooLocation": {
-          "name": "RE"
-        }
-      },
-      {
-        "tattoo": "P50",
-        "tattooLocation": {
-          "name": "LE"
-        }
-      }
-    ],
-    "dateOfDeath": null,
-    "linearAppraisals": [
-      {
-        "lactationNumber": null,
-        "appraisalDate": "2024-06-13T00:00:00",
-        "generalAppearance": "A",
-        "dairyStrength": "A",
-        "bodyCapacity": "V",
-        "mammarySystem": null,
-        "finalScore": 78,
-        "isPermanent": false,
-        "id": 324137
-      }
-    ],
-    "awards": [
-      {
-        "awardCode": "*B",
-        "awardDescription": "*Buck",
-        "awardYear": 2023,
-        "awardCount": 1
-      }
-    ],
-    "nickname": "Ash",
-    "description": "Nigerian Dwarf"
-  },
-  {
     "name": "Little Redhouse Aric Axel",
     "dateOfBirth": "2024-03-08T12:28:40",
     "normalizeId": "PD2371995",
