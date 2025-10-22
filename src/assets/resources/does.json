@@ -468,39 +468,6 @@
     "description": "F1 Mini LaMancha 50/50%"
   },
   {
-    "name": "Fyre FamFarm Heart LikeA Truck",
-    "dateOfBirth": "2023-06-06T15:05:01",
-    "dateOfDeath": null,
-    "normalizeId": "PD2324819",
-    "id": 2324819,
-    "sex": "Female",
-    "damId": 1806160,
-    "sireId": 2157990,
-    "ownerAccount": {
-      "displayName": "Angel Fyre"
-    },
-    "colorAndMarking": "Buckskin, White Poll, Frosted Ears, Minimal White, Blue Eyes",
-    "animalTattoo": [
-      {
-        "tattoo": "FF06",
-        "tattooLocation": {
-          "name": "RE"
-        }
-      },
-      {
-        "tattoo": "R4",
-        "tattooLocation": {
-          "name": "LE"
-        }
-      }
-    ],
-    "linearAppraisals": [],
-    "usdaId": "NDUSA000002324819",
-    "usdaKey": 2064931,
-    "lactationRecords": [],
-    "awards": []
-  },
-  {
     "name": "Fyre FamFarm Watrmln Moonshine",
     "dateOfBirth": "2023-06-06T15:20:16",
     "dateOfDeath": null,
