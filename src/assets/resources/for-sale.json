@@ -114,5 +114,29 @@
     ],
     "nickname": "Monday",
     "price": "200.00"
+  },
+  {
+    "name": "Fyre FamFarm Rua Tangy Twist",
+    "dateOfBirth": "2025-03-25T13:24:37",
+    "dateOfDeath": null,
+    "normalizeId": "PD2441894",
+    "id": 2441894,
+    "sex": "Female",
+    "damId": 2301632,
+    "sireId": 2342517,
+    "ownerAccount": {
+      "displayName": ""
+    },
+    "colorAndMarking": "",
+    "animalTattoo": [
+      {
+        "tattoo": "FF06",
+        "tattooLocation": {}
+      },
+      {
+        "tattoo": "T5",
+        "tattooLocation": {}
+      }
+    ]
   }
 ]
