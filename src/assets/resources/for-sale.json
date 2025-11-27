@@ -64,32 +64,6 @@
     "awards": []
   },
   {
-    "name": "Fyre FamFarm Rua RainY Monday ",
-    "dateOfBirth": "2025-03-24T12:37:01",
-    "dateOfDeath": null,
-    "normalizeId": "PD2441851",
-    "id": 2441851,
-    "sex": "Female",
-    "damId": 1806160,
-    "sireId": 2342517,
-    "ownerAccount": {
-      "displayName": ""
-    },
-    "colorAndMarking": "",
-    "animalTattoo": [
-      {
-        "tattoo": "FF06",
-        "tattooLocation": {}
-      },
-      {
-        "tattoo": "T2",
-        "tattooLocation": {}
-      }
-    ],
-    "nickname": "Monday",
-    "price": "200.00"
-  },
-  {
     "name": "Fyre FamFarm Rua Tangy Twist",
     "dateOfBirth": "2025-03-25T13:24:37",
     "dateOfDeath": null,
