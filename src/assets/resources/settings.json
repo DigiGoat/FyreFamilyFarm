@@ -1,1 +1,15 @@
-{}
+{
+  "analytics": {
+    "gtag": "G-Q4C45S19KZ",
+    "clarity": "nwouwe8dwg"
+  },
+  "firebase": {
+    "projectId": "fyrefamilyfarm",
+    "authDomain": "fyrefamilyfarm.firebaseapp.com",
+    "storageBucket": "fyrefamilyfarm.firebasestorage.app",
+    "apiKey": "AIzaSyA89R2mNZiGPMhy5xYMyvZaYa3Z7d0KBUc",
+    "messagingSenderId": "134651079012",
+    "appId": "1:134651079012:web:bcf168b45773f5913ab271"
+  },
+  "url": "https://fyrefamilyfarm.com/"
+}
