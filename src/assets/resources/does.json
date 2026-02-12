@@ -34,19 +34,19 @@
         "startDate": "2025-05-05",
         "isCurrent": true,
         "lactationNumber": "1",
-        "daysInMilk": "252",
+        "daysInMilk": "277",
         "stats": {
           "milk": {
-            "achieved": "1480",
-            "projected": "1674"
+            "achieved": "1560",
+            "projected": "1655"
           },
           "butterfat": {
-            "achieved": "60",
-            "projected": "71"
+            "achieved": "65",
+            "projected": "70"
           },
           "protein": {
-            "achieved": "50",
-            "projected": "57"
+            "achieved": "54",
+            "projected": "56"
           }
         },
         "tests": [
@@ -105,6 +105,14 @@
             "butterfatPct": "5.2",
             "proteinPct": "3.9",
             "daysInMilk": "252"
+          },
+          {
+            "testNumber": 8,
+            "testDate": "2026-02-05",
+            "milk": "3.2",
+            "butterfatPct": "5.3",
+            "proteinPct": "4.2",
+            "daysInMilk": "277"
           }
         ]
       }
@@ -148,19 +156,19 @@
         "startDate": "2025-05-09",
         "isCurrent": true,
         "lactationNumber": "1",
-        "daysInMilk": "248",
+        "daysInMilk": "273",
         "stats": {
           "milk": {
-            "achieved": "1010",
-            "projected": "1143"
+            "achieved": "1060",
+            "projected": "1142"
           },
           "butterfat": {
-            "achieved": "52",
+            "achieved": "56",
             "projected": "56"
           },
           "protein": {
-            "achieved": "39",
-            "projected": "44"
+            "achieved": "41",
+            "projected": "43"
           }
         },
         "tests": [
@@ -219,6 +227,14 @@
             "butterfatPct": "6.4",
             "proteinPct": "5.1",
             "daysInMilk": "248"
+          },
+          {
+            "testNumber": 8,
+            "testDate": "2026-02-05",
+            "milk": "2.2",
+            "butterfatPct": "6.3",
+            "proteinPct": "4.6",
+            "daysInMilk": "273"
           }
         ]
       }
