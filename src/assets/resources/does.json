@@ -32,20 +32,20 @@
     "lactationRecords": [
       {
         "startDate": "2025-05-05",
-        "isCurrent": true,
+        "isCurrent": false,
         "lactationNumber": "1",
-        "daysInMilk": "277",
+        "daysInMilk": "315",
         "stats": {
           "milk": {
-            "achieved": "1560",
+            "achieved": "1640",
             "projected": "1655"
           },
           "butterfat": {
-            "achieved": "65",
+            "achieved": "70",
             "projected": "70"
           },
           "protein": {
-            "achieved": "54",
+            "achieved": "57",
             "projected": "56"
           }
         },
@@ -154,20 +154,20 @@
     "lactationRecords": [
       {
         "startDate": "2025-05-09",
-        "isCurrent": true,
+        "isCurrent": false,
         "lactationNumber": "1",
-        "daysInMilk": "273",
+        "daysInMilk": "321",
         "stats": {
           "milk": {
-            "achieved": "1060",
+            "achieved": "1120",
             "projected": "1142"
           },
           "butterfat": {
-            "achieved": "56",
+            "achieved": "60",
             "projected": "56"
           },
           "protein": {
-            "achieved": "41",
+            "achieved": "44",
             "projected": "43"
           }
         },
