@@ -115,6 +115,36 @@
             "daysInMilk": "277"
           }
         ]
+      },
+      {
+        "startDate": "2026-05-13",
+        "isCurrent": true,
+        "lactationNumber": "2",
+        "daysInMilk": "42",
+        "stats": {
+          "milk": {
+            "achieved": "320",
+            "projected": "2004"
+          },
+          "butterfat": {
+            "achieved": "14",
+            "projected": "87"
+          },
+          "protein": {
+            "achieved": "11",
+            "projected": "63"
+          }
+        },
+        "tests": [
+          {
+            "testNumber": 1,
+            "testDate": "2026-06-23",
+            "milk": "8.3",
+            "butterfatPct": "4.0",
+            "proteinPct": "3.1",
+            "daysInMilk": "42"
+          }
+        ]
       }
     ],
     "awards": [],
@@ -237,6 +267,36 @@
             "daysInMilk": "273"
           }
         ]
+      },
+      {
+        "startDate": "2026-06-03",
+        "isCurrent": true,
+        "lactationNumber": "2",
+        "daysInMilk": "21",
+        "stats": {
+          "milk": {
+            "achieved": "150",
+            "projected": "2077"
+          },
+          "butterfat": {
+            "achieved": "7",
+            "projected": "88"
+          },
+          "protein": {
+            "achieved": "5",
+            "projected": "65"
+          }
+        },
+        "tests": [
+          {
+            "testNumber": 1,
+            "testDate": "2026-06-23",
+            "milk": "8.3",
+            "butterfatPct": "4.1",
+            "proteinPct": "3.2",
+            "daysInMilk": "21"
+          }
+        ]
       }
     ],
     "awards": [],
@@ -308,7 +368,38 @@
     "linearAppraisals": [],
     "usdaId": "LNUSA000002433762",
     "usdaKey": 2164880,
-    "lactationRecords": [],
+    "lactationRecords": [
+      {
+        "startDate": "2026-05-29",
+        "isCurrent": true,
+        "lactationNumber": "1",
+        "daysInMilk": "26",
+        "stats": {
+          "milk": {
+            "achieved": "190",
+            "projected": "2308"
+          },
+          "butterfat": {
+            "achieved": "9",
+            "projected": "100"
+          },
+          "protein": {
+            "achieved": "6",
+            "projected": "70"
+          }
+        },
+        "tests": [
+          {
+            "testNumber": 1,
+            "testDate": "2026-06-23",
+            "milk": "8.6",
+            "butterfatPct": "4.4",
+            "proteinPct": "3.0",
+            "daysInMilk": "26"
+          }
+        ]
+      }
+    ],
     "awards": [],
     "nickname": "Saffy",
     "description": "LaMancha"
